@@ -2,8 +2,8 @@
 Para usar esta app debes descargarla y necesitarás **NodeJS**, por lo menos en la versión actual.
 Una vez cumplidos los requisitos anteriores procedemos a ejecutar el programa    
 
-# EN EL CMD DENTRO DEL DIRECTORIO
-Escribimos `node index` y se ejecutará el servidor, si todo fue correctamente nos pondrá: `http://localhost:3000`    
+# EN EL CMD DENTRO DEL DIRECTORIO /backend
+Escribimos `npm i` para instalar las dependencias y posteriormente`node index` y se ejecutará el servidor, si todo fue correctamente nos pondrá: `http://localhost:3000`    
 
 # COMO ACCEDO A LA APP DESDE OTRO DISPOSITIVO
 Esta app publica una web en el puerto 3000 *por defecto* a la que desde otro dispositivo conectado a la red accederemos    
@@ -25,7 +25,7 @@ He tratado que el uso sea lo mas sencillo posible.
 
 ### TEMAS PENDIENTES
  - Realizar en el panel ajustes para el move
- - ¿Se puede mover y pulsar? Depende, para arrastrar objetos no para seleccionar texto ficheros y   asi si
+ - ¿Se puede mover y pulsar? Depende, para arrastrar objetos no para seleccionar texto ficheros y asi si
  - Mirar si se puede hacer un click and hold para arrastrar objetos (adjuntar un fichero)
  - La web en movil en lateral no carga como debe, los botones de pulsar se cortan
 ### OPCIONALES 
