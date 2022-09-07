@@ -1,0 +1,156 @@
+/*
+Copyright (c) 2022, savage-unic0rn
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. 
+*/
+
+:root {
+    --main-color: #ffffff;
+    --colorIconos: #cdcdcd;
+    --colorTexto: #555555;
+}
+
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+    background: var(--main-color);
+    overflow: hidden;
+}
+i{
+    pointer-events: none;
+}
+.invert{
+    filter: invert(1) hue-rotate(180deg) grayscale(0.4);
+}
+
+.icon-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorIconos);
+}
+
+.flex-1{
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border-bottom: 2px solid var(--colorIconos);
+    box-shadow: 0px -1px 4px var(--colorIconos);
+    
+}
+
+    #tp{
+        flex-grow: 1;
+
+        border-right: 2px solid var(--colorIconos);
+        box-shadow: -1px 0px 4px var(--colorIconos);
+    }
+        #tp i{
+            font-size: 5.5em;
+        }
+    #sv{
+        width: 45px;
+    }
+        #sv i{
+            font-size: 1.5em;
+        }
+
+.flex-2{
+    height: calc(40% - 50px);
+    display: flex;
+    flex-direction: column;
+}
+    #sh{
+        height: 45px;
+        border-bottom: 2px solid var(--colorIconos);
+        box-shadow: 0px 0px 2px var(--colorIconos);
+    }
+        #sh i{
+            font-size: 1.5em;
+        }
+    .botonera{
+        flex-grow: 1;
+        display: flex;
+    }
+
+        #cizq{
+            flex-grow: 1;
+
+            border-right: 2px solid var(--colorIconos);
+            box-shadow: -1px 0px 2px var(--colorIconos);
+        }
+            #cizq i{
+                font-size: 5.5em;
+            }
+        #cdch{flex-grow: 1;}
+            #cdch i{
+                font-size: 5.5em;
+            }
+
+header {
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid var(--colorIconos);
+    box-shadow: 0px 0px 2px var(--colorIconos);
+    align-items: center;
+}
+    nav {
+        font-size: 2em;
+        color: var(--colorTexto);
+    }
+    .image {
+        filter: opacity(0.875);
+        background-image: url(../../../public/www/imgs/favicon.ico);
+        width: 110px;
+        height: 50px;
+        background-size: 65px;
+        background-position: center;
+    }
+    .wrap {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+        #keyboard_text {  
+            border: 1px solid var(--colorTexto);
+            padding: 4px;
+            width: 50%; 
+            margin: 5px;
+        }
+        #del,#send {
+            background: var(--main-color);
+            color: var(--colorTexto);
+            font-size: 1.2em;
+            border: 1px solid var(--colorTexto);
+            border-radius: 10px;
+            padding: 5px;
+            width: 50px;
+            margin: 5px;
+        }
+        #del {
+            background: var(--colorTexto);
+            color: var(--main-color);
+            font-size: 1.2em;
+            border: 1px solid var(--colorTexto);
+            border-radius: 10px;
+            padding: 5px;
+            width: 50px;
+            margin: 5px;
+        }
+
+        #del:hover,#send:hover {
+            filter: invert(1)
+        }
